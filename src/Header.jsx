@@ -23,7 +23,7 @@ function Header({ setVerified }) {
   return (
     <header className="header d-flex align-items-center justify-content-between px-3 py-2">
       {/* Left - Logo */}
-      <div className="logo">🍴 Tasty Bites</div>
+      <div className="logo">🍔 FoodieHub</div>
 
       {/* Middle - Navigation */}
       <nav className={`nav-links ${menuOpen ? "show" : ""}`}>

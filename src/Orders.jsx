@@ -13,7 +13,7 @@ function Orders() {
   };
 
   const backgroundStyle = {
-    backgroundImage: "url('https://images.unsplash.com/photo-1600891964599-f61ba0e24092?auto=format&fit=crop&w=1470&q=80')",
+    backgroundImage: "url('public/images/ChatGPT Image Dec 26, 2025, 05_44_36 PM.png')",
     backgroundSize: "cover",
     backgroundPosition: "center",
     minHeight: "100vh",

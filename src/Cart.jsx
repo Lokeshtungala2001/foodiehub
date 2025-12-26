@@ -19,7 +19,7 @@ function Cart() {
   const grandTotal = subtotal + tax - manualDiscount - couponDiscount;
 
   const applyCoupon = () => {
-    if (couponCode === "syam50") {
+    if (couponCode === "loki1109") {
       setCouponDiscount(50);
       alert("✅ Coupon applied! ₹50 discount");
     } else {
@@ -61,6 +61,11 @@ We’ll deliver your food soon! 🍴
 
     try {
       // ✅ Send Gmail
+      // await emailjs.send(
+      //   "service_khzi9ao",
+      //   "template_zo0c3b4",
+      //   templateParams,
+      //   "Kjn65lKPgb_tQb8sz"
       await emailjs.send(
         "service_ju3327k",
         "template_vqyf7dp",
@@ -103,7 +108,7 @@ We’ll deliver your food soon! 🍴
       className="container-fluid py-4"
       style={{
         backgroundImage:
-          "url('https://images.unsplash.com/photo-1504674900247-0877df9cc836?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80')",
+          "url('public/images/ChatGPT Image Dec 26, 2025, 05_44_36 PM.png')",
         backgroundSize: "cover",
         backgroundPosition: "center",
         minHeight: "100vh",
@@ -253,7 +258,7 @@ We’ll deliver your food soon! 🍴
                   <div className="text-center p-3 border rounded">
                     <p className="mb-2 fw-bold">Scan & Pay with PhonePe</p>
                     <QRCodeCanvas
-                      value={`upi://pay?pa=8367705728@ybl&pn=TastyBites&am=${grandTotal.toFixed(
+                      value={`upi://pay?pa=8465909449@ibl&pn=TastyBites&am=${grandTotal.toFixed(
                         2
                       )}&cu=INR`}
                       size={180}

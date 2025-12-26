@@ -19,8 +19,8 @@ function Home({ user }) {
           className="hero-video"
         />
         <div className="hero-overlay">
-          <h1>🍽️ Welcome to Tasty Bites</h1>
-          <button className="order-btn">Order Now</button>
+          <h1> Welcome to FoodieHub </h1>
+          {/* <button className="order-btn">Order Now</button> */}
         </div>
       </section>
 
@@ -32,7 +32,7 @@ function Home({ user }) {
             { name: "Pizza", img: "/images/veg pizza.jpg" },
             { name: "Drinks", img: "/images/drinks.webp" },
             { name: "Salad", img: "/images/salad bowl.jpg" },
-            { name: "Dessert", img: "/images/images4.jpg" },
+            // { name: "Dessert", img: "/images/images4.jpg" },
             { name: "Ice Cream", img: "/images/chocolate cake.jpg" },
             { name: "Burger", img: "/images/burger.jpg" },
             { name: "Cheese Pizza", img: "/images/cheese piza.jpg" },
@@ -104,15 +104,15 @@ function Home({ user }) {
         <div className="review-cards">
           <div className="card">
             <p>"Amazing food and quick delivery!"</p>
-            <h4>- Priya</h4>
+            <h4>- Amani</h4>
           </div>
           <div className="card">
             <p>"Best taste, totally recommend Tasty Bites!"</p>
-            <h4>- Rahul</h4>
+            <h4>- Anu</h4>
           </div>
           <div className="card">
             <p>"Fresh and delicious every time."</p>
-            <h4>- Ananya</h4>
+            <h4>- Sudha</h4>
           </div>
         </div>
       </section>
