@@ -1,6 +1,6 @@
 
 import React, { useState } from "react";
-import "./Veg.css";
+import "./veg.css";
 import { useCart } from "./CartContext";
 
 const vegItems = [
